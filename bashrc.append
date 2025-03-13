@@ -1,0 +1,19 @@
+force_color_prompt=yes
+alias ls='ls --color=auto --time-style=long-iso'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+export LESS='-iR'
+export LD_LIBRARY_PATH="$HOME/lib:$HOME/usr/lib/x86_64-linux-gnu"
+export GIT_SSL_NO_VERIFY=1
+export XAUTHORITY=$HOME/.Xauthority
+alias ag='ag -u --color-match="1;31" --color-path="1;33;4"'
+alias grepc='ag -G ".*\.[ch]"'
+alias greph='ag -G ".*\.h"'
+alias grep='grep --color=auto'
+alias dir='dirs -p'
+alias tmux='tmux -2'
+alias svim='vim -u ~/.SpaceVim/vimrc'
+alias svi='svim'
+bind 'set show-all-if-unmodified On'
+

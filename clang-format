@@ -1,0 +1,14 @@
+# style updated on 2024/09/24 by Leo Chen
+BasedOnStyle: llvm
+Language: Cpp
+UseTab: Always
+IndentWidth: 8
+TabWidth: 8
+SortIncludes: false
+BreakBeforeBraces: Allman
+AllowShortEnumsOnASingleLine: true
+IndentPPDirectives: AfterHash
+IndentCaseLabels: true
+ColumnLimit: 100
+AlignEscapedNewlines: DontAlign
+AllowShortFunctionsOnASingleLine: InlineOnly

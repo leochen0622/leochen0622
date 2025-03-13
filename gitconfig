@@ -1,0 +1,13 @@
+[user]
+	name = Leo Chen
+	email = leochen0@msn.com
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	gf = log --abbrev-commit --decorate --pretty=format:'%C(bold blue)%h%C(reset) %C(bold green)%ad%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --date=format:%y%m%d --graph
+	gfn = gf --no-merges
+	st = status
+[color]
+	ui = auto
