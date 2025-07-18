@@ -13,7 +13,5 @@ alias greph='ag -G ".*\.h"'
 alias grep='grep --color=auto'
 alias dir='dirs -p'
 alias tmux='tmux -2'
-alias svim='vim -u ~/.SpaceVim/vimrc'
-alias svi='svim'
 bind 'set show-all-if-unmodified On'
 
